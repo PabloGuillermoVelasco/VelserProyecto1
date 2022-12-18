@@ -300,12 +300,8 @@ hr {
     color: rgb(255, 255, 255)
 }
 
-.right {
-    text-align: right;
-}
-
-.contactenos {
-    margin: 10px;
+.btnPresupuesto{
+    background-color: rgb(18, 204, 18);
 }
 
 .consulta {
@@ -334,3 +330,6 @@ hr {
     opacity: 1;
 }
 
+.pad{
+    padding: 20px;
+}
