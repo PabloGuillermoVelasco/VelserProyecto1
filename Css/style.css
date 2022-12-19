@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 
-.logonav {
+.border_logos {
     border-radius: 15px;
 }
 
 .grilla_marcas {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 1fr;
     grid-column-gap: 15px;
-    grid-template-areas: "marca1 marca2 marca3 marca4 marca5";
+    grid-template-areas: "marca1 marca2 marca3 marca4";
     justify-content: space-evenly;
 }
 
@@ -332,4 +332,12 @@ hr {
 
 .pad{
     padding: 20px;
+}
+
+.carouselSize{
+    height: 700px;
+}
+
+.carouselImg{
+    height: 700px;
 }
