@@ -13,17 +13,12 @@
     margin: 20px;
     padding: 10px;
     border-radius: 50px;
-
 }
 
 hr {
     margin: 10px;
     border: 1px solid;
     color: rgb(255, 255, 255)
-}
-
-.pad{
-    padding: 20px;
 }
 
 .carouselSize{
@@ -51,7 +46,3 @@ hr {
     margin:20px;
 }
 
-.botonContacto{
-
-justify-content: flex-end !important;
-}
