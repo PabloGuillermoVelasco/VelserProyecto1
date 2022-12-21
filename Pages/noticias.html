@@ -56,12 +56,56 @@
                     </ul>
                 </div>
             </div>
-            <div class="justify-content-end">
-                <a href="./Pages/contactanos.html"><button class="btn btn-danger"
-                        class="wow animate__animated animate__rubberBand">Solicita tu presupuesto</button></a>
+                    <!-- Button trigger modal -->
+                    <div class="justify-content-end">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Solicita tu presupuesto
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
+        </header>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center modal-title fs-5" id="exampleModalLabel">Velser - Presupuesto</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Guillermo Velasco">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="suemail@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Teléfono de contacto</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Sin el 0 ni el 15">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Su mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Comentanos tu problema, pasanos medidas y si podes adjuntanos fotos y/o videos. Ya que mientras mas datos tengamos mejor podemos presupuestarte el trabajo."></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger">Adjuntar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Enviar</button>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </header>
+        </div>
     <main>
         <section>
             <div class="container text-center">
