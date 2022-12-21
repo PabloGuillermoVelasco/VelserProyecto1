@@ -10,8 +10,8 @@
 }
 
 .imagenPortada {
-    margin: 20px;
-    padding: 10px;
+    margin: px;
+    padding: 3px;
     border-radius: 50px;
 }
 
@@ -45,4 +45,3 @@ hr {
     align-items: center;
     margin:20px;
 }
-
